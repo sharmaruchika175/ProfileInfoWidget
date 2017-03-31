@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="profile.css">
+<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+</head>
+<body>
+<div class="main-container">
+	<div class="loader"><img class="spinner" src ="image/progress.gif"/></div>
+	<div class="content" style="display:none;">
+		<div class = "top-container">
+			<div class = "user-image user-container">
+				<div class = "user-pic">
+					<img class="image" src ="image/Chrysanthemum.jpg"/>
+				</div>
+			</div>
+			<div class = "user-details user-container">
+				<div class = "user-name">
+					<div class="firstname"></div>
+					<div class="lastname"></div>
+				</div>
+				<div class = "user-followers"><span></span> followers</div>
+			</div>
+		</div>
+		<div class = "bottom-container main">
+			<div class = "info-container">
+				<div class = "info-container-left">Edit user</div>
+				<div class = "info-container-right" ><i class="material-icons">person</i></div>
+			</div>
+			<div class = "info-container statics">
+				<div class = "info-container-left">Web statistics</div>
+				<div class = "info-container-right"><i class="material-icons">assessment</i></div>
+			</div>
+			<div class = "info-container">
+				<div class = "info-container-left">Upload settings</div>
+				<div class = "info-container-right"><i class="material-icons">build</i></div>
+			</div>
+			<div class = "info-container">
+				<div class = "info-container-left">Events</div>
+				<div class = "info-container-right"><i class="material-icons">place</i></div>
+			</div>
+		</div>
+
+		<div class = "bottom-container statics">
+			<div class = "info-container">
+				<div class = "info-container-left">likes</div>
+				<div class = "info-container-right likes"></div>
+			</div>
+			<div class = "info-container">
+				<div class = "info-container-left">Comments</div>
+				<div class = "info-container-right comments"></div>
+			</div>
+			<div class = "info-container">
+				<div class = "info-container-left">Posts</div>
+				<div class = "info-container-right posts"></div>
+			</div>
+			<div class = "info-container">
+				<div class = "info-container-left back-button">&lt;&lt;Back</div>
+				<div class = "info-container-right" ></div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="profile.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</html>
